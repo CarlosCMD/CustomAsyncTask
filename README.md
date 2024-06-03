@@ -1,6 +1,8 @@
 # CustomAsyncTask
 An approach that maintains a similar structure to the already deprecated AsyncTask while using modern concurrency tools provided by the Java standard library.
-Usage, declare your class:
+
+## Usage/Examples:
+Using the created custom class that manages the background execution and UI thread updates:
 ```java
 public class MyTask extends CustomAsyncTask<String, Integer, String> {
 
