@@ -1,5 +1,5 @@
 # CustomAsyncTask
-An approach that maintains a similar structure to deprecated AsyncTask while using modern concurrency tools provided by the Java standard library.
+An approach that maintains a similar structure to the already deprecated AsyncTask while using modern concurrency tools provided by the Java standard library.
 Usage, declare your class:
 ```java
 public class MyTask extends CustomAsyncTask<String, Integer, String> {
